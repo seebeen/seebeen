@@ -1,0 +1,96 @@
+headerImg: 'https://raw.githubusercontent.com/seebeen/seebeen/master/hello-there.gif'
+
+badges:
+  config:
+    showCats: false
+    showTags: false
+    showLogos: true
+    style: flat-square
+  cats:
+    - name: Frameworks
+      description: Backend techonologies
+      list:
+        - name: WordPress
+          color: '21759b'
+          icon: wordpress
+        - name: Laravel
+          color: 'ff2d20'
+          icon: laravel
+        - name: NestJS
+          color: 'e0234e'
+          icon: nestjs
+    - name: Backend stuff
+      description: ''
+      list:
+        - name: PHP
+          color: '777bb4'
+          icon: php
+        - name: TypeScript
+          color: '2b7489'
+          icon: typescript
+        - name: JavaScript
+          color: 'f7df1e'
+          icon: javascript
+        - name: MySQL
+          color: '4479a1'
+          icon: mysql
+        - name: MongoDB
+          color: '47a248'
+          icon: mongodb
+        - name: Redis
+          color: 'dc382d'
+          icon: redis
+        - name: Docker
+          color: '2496ed'
+          icon: docker
+    - name: Scripting
+      description: ''
+      list:
+        - name: Perl
+          color: '39457e'
+          icon: perl
+        - name: Bash
+          color: '4eaa25'
+          icon: gnome-terminal
+        - name: Python
+          color: '3776ab'
+          icon: python
+    - name: Frontend stuff
+      description: Frontend
+      list:
+        - name: HTML
+          color: 'e34c26'
+          icon: html5
+        - name: SASS
+          color: 'cc6699'
+          icon: sass
+        - name: Webpack
+          color: '8dd6f9'
+          icon: webpack
+        - name: React
+          color: '61dafb'
+          icon: react
+    - name: Things i work with
+      description: ''
+      list:
+        - name: VSCode
+          color: '007acc'
+          icon: visualstudiocode
+        - name: Git
+          color: 'f05032'
+          icon: git
+        - name: GitHub
+          color: '181717'
+          icon: github
+        - name: Github_Actions
+          color: '2088ff'
+          icon: github-actions
+        - name: Windows
+          color: '0078d6'
+          icon: windows
+        - name: WSL
+          color: '4b0082'
+          icon: ubuntu
+        - name: Brave
+          color: 'fb542b'
+          icon: brave
