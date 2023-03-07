@@ -21,9 +21,11 @@ jobs:
           cache: yarn
       - name: Install dependencies
         run: yarn install
+      - name: Build
+        run: yarn build
       - name: Generate README file
         run: node dist/main.js
       - name: Push new README.md
-        uses: mikeal/publish-to-github-action@master
+        uses: mikeal/publish-to-github-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
