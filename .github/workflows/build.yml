@@ -26,6 +26,6 @@ jobs:
       - name: Generate README file
         run: node dist/main.js
       - name: Push new README.md
-        uses: mikeal/publish-to-github-action@v1
+        uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
