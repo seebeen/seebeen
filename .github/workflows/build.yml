@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: "0 */12 * * *"
 
 jobs:
   build:
@@ -18,11 +18,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: yarn
+          cache: npm
       - name: Install dependencies
-        run: yarn install
+        run: npm install
       - name: Build
-        run: yarn build
+        run: npm run build
       - name: Generate README file
         run: node dist/main.js
       - name: Push new README.md
