@@ -12,7 +12,6 @@
   "engines": {
     "node": ">= 18"
   },
-  "packageManager": "yarn@4.0.0-rc.40",
   "devDependencies": {
     "@types/fs-extra": "^11.0.1",
     "@types/jest": "^29.4.0",
